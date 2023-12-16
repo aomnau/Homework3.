@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 18%;
+    padding-left: 17%;
+    border-bottom: 1px solid rgb(194, 192, 192);
+
+}
+.noti-num {
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        position: relative;
+        left: -19px;
+        bottom: 5px;
+        background-color: red;
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+.vl{
+    border-left: 1px solid rgb(194, 192, 192);
+    height: 25px;
+}
+button {
+    font-size: 13px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: #ffffff;
+  }
+.header-logo{
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+}
+.header-logo1{
+    margin: 10px;
+    width: 25px;
+    filter: invert(60%);
+    height: auto;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #00dcb5;
+    color: white;
+}
+.topic {
+    position: relative;
+    left: 340px;
+    top: 90px;
+  }
+  .container {
+    width: 560px;
+    height: 230px;
+    border: 1px solid #acabab2f;
+    box-shadow: 5px 5px 5px #f8f8f8c4;
+    padding: 100px;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+    left: 340px;
+    background-color: white;
+  }
+  .dm1 {
+    position: relative;
+    top: -10px;
+    left: -70px;
+  }
+  .gdimg01{
+    position: relative;
+    top: -80px;
+    left: -110px;
+  }
+  .m1 {
+    width: 40px;
+    border: 2px solid #00dcb5;
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  .gdimg  {
+    width: 170px;
+    height: auto;
+    position: relative;
+    left: 90px;
+    top: -35px;
+    border-radius: 20px;
+    background-size: cover;
+  }
+  .textcon {
+    position: relative;
+    bottom: 120px;
+    left: 110px;
+    color: white;
+  }
+  .text01 {
+    position: relative;
+    top: -260px;
+    left: 160px;
+  }
+  .op {
+    position: relative;
+    left: 110px;
+    top: 30px;
+  }
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  select:hover {
+    border-color: #00dcb5;
+  }
+  .container01 {
+    width: 560px;
+    height: 230px;
+    border: 1px solid #acabab2f;
+    box-shadow: 5px 5px 5px #f8f8f8c4;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    top: 130px;
+    left: 340px;
+    background-color: white;
+  }
+  .slimg02 {
+    width: 180px;
+    height: auto;
+    position: relative;
+    left: 30px;
+    top: -15px;
+    border-radius: 20px;
+    background-size: cover;
+  }
+.dm2 {
+        position: relative;
+        top: 90px;
+        left: 18px;
+}
+.text02 {
+    position: relative;
+    top: -180px;
+    left: 250px;
+  }
+  .containerpay {
+    width: 550px;
+    height: 440px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    /* border-top-right-radius: 15px; */
+    /* border-top-left-radius: 15px; */
+    padding: 10px;
+    position: relative;
+    top: -360px;
+    left: 930px;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    
+  }
+  .texth2 {
+    position: relative;
+    left: 23px;
+    top: 20px;
+  }
+  .dm02 {
+    position: relative;
+    top: 150px;
+    left: 20px;
+  }
+  .a1 {
+    position: relative;
+    left: -80px;
+    top: 90px;
+  }
+  .a2 {
+    position: relative;
+    left: 280px;
+    top: 90px;
+  }
+  .a3 {
+    position: relative;
+    left: 285px;
+    top: 90px;
+  }
+  .btn {
+    position: relative;
+    height: 40px;
+    width: 130px;
+    top: 135px;
+    left: -140px;
+    box-shadow: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #00dcb5;
+    border: 1px solid #00dcb5;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .text1 {
+    position: relative;
+    font-size: 20px;
+    left: -600px;
+    top: 260px;
+  }
+  .text11 {
+    position: relative;
+    font-size: 20px;
+    left: -595px;
+    top: 260px;
+  }
+  .text2 {
+    position: relative;
+    left: -400px;
+    top: 250px;
+    color: #00c997;
+  }
+  .text3 {
+    position: relative;
+    left: -390px;
+    top: 250px;
+    color: #00c997;
+  }
+  .btn01 {
+    position: relative;
+    top: 300px;
+    right: 895px;
+    height: 45px;
+    width: 500px;
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #00dcb5;
+    color: #085f67;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    /* box-shadow: 0px 0px 5px 0px #00c900; */
+  }
+  .styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid rgb(250, 250, 250);
+    color: #000c39;
+    background-color: rgb(250, 250, 250);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  .thb {
+    position: relative;
+    left: 5px;
+    top: 20px;
+    font-size: 20px;
+    color: #393939;
+  }
+  .m02 {
+    position: relative;
+    width: 40px;
+    left: -70px;
+    top: -0px;
+  }
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    background-color: gray;
+  }
+  .circle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    background-color: gray;
+  }
+  .styled-button:hover {
+    background-color: #00e390;
+    border-color: #00e390;
+  }
+  input {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    bottom: -145px;
+    right: 160px;
+  }
+  .op1 {
+    position: relative;
+    left: 150px;
+    top: 30px;
+  }

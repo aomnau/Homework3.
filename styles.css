@@ -5,6 +5,9 @@
     font-family: sans-serif
 ;
 }
+body {
+    overflow: hidden; 
+  }
 header {
     display: flex;
     align-items: center;

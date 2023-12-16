@@ -190,6 +190,7 @@ button:hover{
   }
   .a1 {
     position: relative;
+    color: rgb(134, 134, 134);
     left: -80px;
     top: 90px;
   }
@@ -222,13 +223,13 @@ button:hover{
   .text1 {
     position: relative;
     font-size: 20px;
-    left: -600px;
+    left: -640px;
     top: 260px;
   }
   .text11 {
     position: relative;
     font-size: 20px;
-    left: -595px;
+    left: -635px;
     top: 260px;
   }
   .text2 {
